@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #6a5acd, #7b68ee);
+}
+
+.page {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  width: 40%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  margin: 20px 0;
+}
+
+.card {
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 10px;
+  margin: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+input:disabled {
+  background: #eee;
+  cursor: not-allowed;
+}
+
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #6a5acd;
+  color: white;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.cancel {
+  background: gray;
+}
+
+.danger {
+  background: crimson;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.empty {
+  text-align: center;
+  color: gray;
+}
